@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: npm
@@ -67,7 +67,7 @@ jobs:
           bash test-suite/src/install-test-suite.sh yourls_tests root '' 127.0.0.1 ${{ matrix.yourls }}
       - name: Run the tests
         run: phpunit -c ./test-suite/src/phpunit.xml --testdox
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: matrix.php == '8.3' && matrix.yourls == '1.10.6'
         with:
           node-version: '22'
