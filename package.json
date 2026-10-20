@@ -1,0 +1,17 @@
+{
+  "name": "yourls-qr-code-designer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development tooling for the QR Code Designer YOURLS plugin. The plugin itself needs no build step.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/js/",
+    "check:vendor": "node scripts/check-vendor.mjs"
+  },
+  "devDependencies": {
+    "canvas": "^3.1.0",
+    "jsdom": "^26.1.0",
+    "jsqr": "1.4.0",
+    "qr-code-styling": "1.9.2"
+  }
+}

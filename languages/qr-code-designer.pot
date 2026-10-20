@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Waterproof Web Wizard GmbH
+# This file is distributed under the same license as the QR Code Designer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Designer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Waterproof-Web-Wizard-GmbH/yourls-"
+"qr-code-designer/issues\n"
+"POT-Creation-Date: 2026-10-20 15:57+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/functions.php:25 includes/functions.php:281
+msgid "QR Code Designer"
+msgstr ""
+
+#: includes/functions.php:43
+msgid "Design a QR code for this short URL"
+msgstr ""
+
+#: includes/functions.php:111
+msgid "Classic black"
+msgstr ""
+
+#: includes/functions.php:116
+msgid "Rounded"
+msgstr ""
+
+#: includes/functions.php:121 includes/functions.php:313
+#: includes/functions.php:330
+msgid "Dots"
+msgstr ""
+
+#: includes/functions.php:126
+msgid "Spaced squares"
+msgstr ""
+
+#: includes/functions.php:214
+msgid "Low contrast between dots and background. Many scanners will fail."
+msgstr ""
+
+#: includes/functions.php:215
+msgid ""
+"Low contrast between corner markers and background. Many scanners will fail."
+msgstr ""
+
+#: includes/functions.php:216
+msgid ""
+"Light code on a dark background (inverted) is not read by every scanner."
+msgstr ""
+
+#: includes/functions.php:217
+msgid ""
+"Transparent background: print it on a light surface only. JPG uses the "
+"background colour."
+msgstr ""
+
+#: includes/functions.php:218
+msgid "The logo was made smaller so the code stays readable."
+msgstr ""
+
+#: includes/functions.php:219
+msgid "The logo stopped at the edge of the safe area."
+msgstr ""
+
+#: includes/functions.php:220
+msgid "The logo does not fit. Make it smaller or reduce its margin."
+msgstr ""
+
+#: includes/functions.php:221
+msgid "The logo could not be loaded."
+msgstr ""
+
+#: includes/functions.php:222
+msgid "Saved as default. The logo is too large to store and was left out."
+msgstr ""
+
+#: includes/functions.php:223
+msgid "No content yet: load a short URL first."
+msgstr ""
+
+#: includes/functions.php:224
+msgid "Saved as default"
+msgstr ""
+
+#: includes/functions.php:225
+msgid "Your browser does not allow saving settings."
+msgstr ""
+
+#: includes/functions.php:226
+msgid "PNG copied to the clipboard"
+msgstr ""
+
+#: includes/functions.php:227
+msgid "Copying failed. Use the download instead."
+msgstr ""
+
+#: includes/functions.php:228
+msgid "Scan test running …"
+msgstr ""
+
+#. translators: %s: content read from the QR code
+#: includes/functions.php:230
+#, php-format
+msgid "Scan test passed: %s"
+msgstr ""
+
+#: includes/functions.php:231
+msgid ""
+"Scan test failed: the built-in scanner cannot read this code. Increase "
+"contrast, reduce the dot gap or make the logo smaller."
+msgstr ""
+
+#: includes/functions.php:232
+msgid ""
+"The built-in scanner could not read this code. Download anyway and test it "
+"with two phones?"
+msgstr ""
+
+#. translators: 1: pixels, 2: dpi
+#: includes/functions.php:234
+#, php-format
+msgid "Needs %1$s px at %2$s dpi. Export size set. For print, SVG is best."
+msgstr ""
+
+#. translators: %s: module size in millimetres
+#: includes/functions.php:236
+#, php-format
+msgid "One module (dot) measures %s mm."
+msgstr ""
+
+#. translators: 1: module size in mm, 2: minimum code size in cm
+#: includes/functions.php:238
+#, php-format
+msgid ""
+"Modules of %1$s mm are too small to scan reliably. Print at least %2$s cm "
+"wide or use a shorter URL."
+msgstr ""
+
+#. translators: %s: minimum size in cm
+#: includes/functions.php:240
+#, php-format
+msgid "For this scan distance the code should be at least %s cm wide."
+msgstr ""
+
+#. translators: 1: logo width in px, 2: needed width in px
+#: includes/functions.php:242
+#, php-format
+msgid ""
+"The logo has %1$s px but needs %2$s px for this print size. Use a larger "
+"file or an SVG."
+msgstr ""
+
+#. translators: %s: maximum export size in px
+#: includes/functions.php:244
+#, php-format
+msgid ""
+"PNG and JPG are limited to %s px. For this print size, download the SVG."
+msgstr ""
+
+#: includes/functions.php:245
+msgid "The content is too long for a QR code. Use a short URL."
+msgstr ""
+
+#: includes/functions.php:276
+msgid "square"
+msgstr ""
+
+#: includes/functions.php:277
+msgid "rounded"
+msgstr ""
+
+#: includes/functions.php:278
+msgid "circle"
+msgstr ""
+
+#: includes/functions.php:285
+msgid "Short URL keyword"
+msgstr ""
+
+#: includes/functions.php:287
+msgid "Load"
+msgstr ""
+
+#: includes/functions.php:288
+msgid "or click \"QR\" in the link list."
+msgstr ""
+
+#: includes/functions.php:292
+msgid "No short URL found with this keyword."
+msgstr ""
+
+#: includes/functions.php:298
+msgid "QR code content"
+msgstr ""
+
+#: includes/functions.php:304
+msgid "Preset"
+msgstr ""
+
+#: includes/functions.php:305
+msgid "custom"
+msgstr ""
+
+#: includes/functions.php:306
+msgid "Save as default"
+msgstr ""
+
+#: includes/functions.php:307
+msgid "Reset"
+msgstr ""
+
+#: includes/functions.php:311
+msgid "Colours"
+msgstr ""
+
+#: includes/functions.php:314 includes/functions.php:319
+msgid "gradient to"
+msgstr ""
+
+#: includes/functions.php:315
+msgid "Second dot colour"
+msgstr ""
+
+#: includes/functions.php:318
+msgid "Corners"
+msgstr ""
+
+#: includes/functions.php:320
+msgid "Second corner colour"
+msgstr ""
+
+#: includes/functions.php:323
+msgid "Background"
+msgstr ""
+
+#: includes/functions.php:324
+msgid "transparent"
+msgstr ""
+
+#: includes/functions.php:329
+msgid "Shape"
+msgstr ""
+
+#: includes/functions.php:333
+msgid "extra rounded"
+msgstr ""
+
+#: includes/functions.php:334
+msgid "circles"
+msgstr ""
+
+#: includes/functions.php:335
+msgid "classy"
+msgstr ""
+
+#: includes/functions.php:336
+msgid "classy rounded"
+msgstr ""
+
+#: includes/functions.php:338
+msgid "Corner frame"
+msgstr ""
+
+#: includes/functions.php:340 includes/functions.php:346
+msgid "slightly rounded"
+msgstr ""
+
+#: includes/functions.php:344
+msgid "Corner dot"
+msgstr ""
+
+#: includes/functions.php:349
+msgid "Dot gap"
+msgstr ""
+
+#: includes/functions.php:353
+msgid "Logo (optional, never leaves your browser)"
+msgstr ""
+
+#: includes/functions.php:355
+msgid "Choose logo"
+msgstr ""
+
+#: includes/functions.php:356
+msgid "Remove logo"
+msgstr ""
+
+#: includes/functions.php:358
+msgid "Logo size"
+msgstr ""
+
+#: includes/functions.php:359
+msgid "Free space around the logo"
+msgstr ""
+
+#: includes/functions.php:360 includes/functions.php:386
+msgid "none"
+msgstr ""
+
+#: includes/functions.php:361
+msgid "1 module"
+msgstr ""
+
+#: includes/functions.php:362 includes/functions.php:387
+msgid "2 modules"
+msgstr ""
+
+#: includes/functions.php:363
+msgid "3 modules"
+msgstr ""
+
+#: includes/functions.php:365
+msgid "Hide dots behind the logo"
+msgstr ""
+
+#: includes/functions.php:367
+msgid "Horizontal"
+msgstr ""
+
+#: includes/functions.php:368
+msgid "Vertical"
+msgstr ""
+
+#: includes/functions.php:369
+msgid "Centre"
+msgstr ""
+
+#: includes/functions.php:371
+msgid ""
+"You can also drag the logo in the preview. It only moves within the safe "
+"area."
+msgstr ""
+
+#: includes/functions.php:375
+msgid "Print"
+msgstr ""
+
+#: includes/functions.php:376
+msgid "Printed width"
+msgstr ""
+
+#: includes/functions.php:377
+msgid "Resolution"
+msgstr ""
+
+#: includes/functions.php:378
+msgid "Scan distance (optional)"
+msgstr ""
+
+#: includes/functions.php:383
+msgid "Output"
+msgstr ""
+
+#: includes/functions.php:384
+msgid "Size"
+msgstr ""
+
+#: includes/functions.php:385
+msgid "Quiet zone"
+msgstr ""
+
+#: includes/functions.php:388
+msgid "4 modules (standard)"
+msgstr ""
+
+#: includes/functions.php:390
+msgid "Error correction"
+msgstr ""
+
+#: includes/functions.php:391
+msgid "L (7 %)"
+msgstr ""
+
+#: includes/functions.php:392
+msgid "M (15 %)"
+msgstr ""
+
+#: includes/functions.php:393
+msgid "Q (25 %)"
+msgstr ""
+
+#: includes/functions.php:394
+msgid "H (30 %, always used with a logo)"
+msgstr ""
+
+#: includes/functions.php:399
+msgid "Download PNG"
+msgstr ""
+
+#: includes/functions.php:400
+msgid "Download SVG (print)"
+msgstr ""
+
+#: includes/functions.php:401
+msgid "Download JPG"
+msgstr ""
+
+#: includes/functions.php:402
+msgid "Copy PNG"
+msgstr ""
+
+#: includes/functions.php:408
+msgid "QR code preview"
+msgstr ""
+
+#: includes/functions.php:411
+msgid "The QR code is rendered in your browser. Please enable JavaScript."
+msgstr ""

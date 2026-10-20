@@ -1,0 +1,11 @@
+/test-suite/
+/vendor/*
+!/vendor/qr-code-styling/
+!/vendor/jsqr/
+/node_modules/
+/package/
+/.dbg/
+/tests/smoke/page.html
+*.tgz
+.DS_Store
+.phpunit.result.cache

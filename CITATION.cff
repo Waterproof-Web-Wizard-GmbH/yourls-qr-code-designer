@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: QR Code Designer for YOURLS
+message: If you reference this software, please cite it as below.
+type: software
+authors:
+  - name: Waterproof Web Wizard GmbH
+    website: https://waterproof-web-wizard.com/
+repository-code: https://github.com/Waterproof-Web-Wizard-GmbH/yourls-qr-code-designer
+abstract: >-
+  Free YOURLS plugin that creates styled QR codes for every short URL,
+  with colours, dot and corner shapes, logo and PNG, SVG or JPG export,
+  rendered in the browser without external services.
+keywords:
+  - YOURLS
+  - QR code
+  - URL shortener
+  - plugin
+license: MIT
+version: 1.0.0
+date-released: '2026-10-20'

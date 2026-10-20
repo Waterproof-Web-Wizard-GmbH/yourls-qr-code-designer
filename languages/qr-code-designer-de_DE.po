@@ -1,0 +1,298 @@
+# German translation for QR Code Designer.
+# Copyright (C) 2026 Waterproof Web Wizard GmbH
+# This file is distributed under the same license as the QR Code Designer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Designer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Waterproof-Web-Wizard-GmbH/yourls-qr-code-designer/issues\n"
+"PO-Revision-Date: 2026-10-20 18:00+0200\n"
+"Last-Translator: Waterproof Web Wizard GmbH <hallo@waterproof.agency>\n"
+"Language-Team: Waterproof Web Wizard GmbH\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "QR Code Designer"
+msgstr "QR-Code-Designer"
+
+msgid "Design a QR code for this short URL"
+msgstr "QR-Code für diesen Kurzlink gestalten"
+
+msgid "Classic black"
+msgstr "Schwarz klassisch"
+
+msgid "Rounded"
+msgstr "Abgerundet"
+
+msgid "Dots"
+msgstr "Punkte"
+
+msgid "Spaced squares"
+msgstr "Quadrate mit Abstand"
+
+msgid "Low contrast between dots and background. Many scanners will fail."
+msgstr "Schwacher Kontrast zwischen Punkten und Hintergrund. Viele Scanner lesen das nicht."
+
+msgid "Low contrast between corner markers and background. Many scanners will fail."
+msgstr "Schwacher Kontrast zwischen Eckmarkern und Hintergrund. Viele Scanner lesen das nicht."
+
+msgid "Light code on a dark background (inverted) is not read by every scanner."
+msgstr "Heller Code auf dunklem Grund (invertiert) wird nicht von jedem Scanner gelesen."
+
+msgid "Transparent background: print it on a light surface only. JPG uses the background colour."
+msgstr "Transparenter Hintergrund: nur auf hellem Untergrund drucken. JPG nutzt die Hintergrundfarbe."
+
+msgid "The logo was made smaller so the code stays readable."
+msgstr "Das Logo wurde verkleinert, damit der Code lesbar bleibt."
+
+msgid "The logo stopped at the edge of the safe area."
+msgstr "Das Logo hält am Rand des sicheren Bereichs an."
+
+msgid "The logo does not fit. Make it smaller or reduce its margin."
+msgstr "Das Logo passt nicht. Mach es kleiner oder verringere den Freiraum."
+
+msgid "The logo could not be loaded."
+msgstr "Das Logo konnte nicht geladen werden."
+
+msgid "Saved as default. The logo is too large to store and was left out."
+msgstr "Als Standard gespeichert. Das Logo ist zu groß zum Speichern und wurde weggelassen."
+
+msgid "No content yet: load a short URL first."
+msgstr "Noch kein Inhalt: erst einen Kurzlink laden."
+
+msgid "Saved as default"
+msgstr "Als Standard gespeichert"
+
+msgid "Your browser does not allow saving settings."
+msgstr "Dein Browser erlaubt das Speichern der Einstellungen nicht."
+
+msgid "PNG copied to the clipboard"
+msgstr "PNG in die Zwischenablage kopiert"
+
+msgid "Copying failed. Use the download instead."
+msgstr "Kopieren fehlgeschlagen. Nutze stattdessen den Download."
+
+msgid "Scan test running …"
+msgstr "Scan-Test läuft …"
+
+#, php-format
+msgid "Scan test passed: %s"
+msgstr "Scan-Test bestanden: %s"
+
+msgid "Scan test failed: the built-in scanner cannot read this code. Increase contrast, reduce the dot gap or make the logo smaller."
+msgstr "Scan-Test nicht bestanden: Der eingebaute Scanner kann diesen Code nicht lesen. Erhöhe den Kontrast, verringere den Punktabstand oder verkleinere das Logo."
+
+msgid "The built-in scanner could not read this code. Download anyway and test it with two phones?"
+msgstr "Der eingebaute Scanner konnte diesen Code nicht lesen. Trotzdem herunterladen und mit zwei Handys testen?"
+
+#, php-format
+msgid "Needs %1$s px at %2$s dpi. Export size set. For print, SVG is best."
+msgstr "Benötigt %1$s px bei %2$s dpi. Die Exportgröße ist gesetzt. Für den Druck ist SVG am besten."
+
+#, php-format
+msgid "One module (dot) measures %s mm."
+msgstr "Ein Modul (Punkt) misst %s mm."
+
+#, php-format
+msgid "Modules of %1$s mm are too small to scan reliably. Print at least %2$s cm wide or use a shorter URL."
+msgstr "Module mit %1$s mm sind zu klein für einen sicheren Scan. Drucke mindestens %2$s cm breit oder nimm eine kürzere URL."
+
+#, php-format
+msgid "For this scan distance the code should be at least %s cm wide."
+msgstr "Für diesen Scan-Abstand sollte der Code mindestens %s cm breit sein."
+
+#, php-format
+msgid "The logo has %1$s px but needs %2$s px for this print size. Use a larger file or an SVG."
+msgstr "Das Logo hat %1$s px, für diese Druckgröße braucht es %2$s px. Nimm eine größere Datei oder ein SVG."
+
+#, php-format
+msgid "PNG and JPG are limited to %s px. For this print size, download the SVG."
+msgstr "PNG und JPG sind auf %s px begrenzt. Lade für diese Druckgröße das SVG herunter."
+
+msgid "The content is too long for a QR code. Use a short URL."
+msgstr "Der Inhalt ist zu lang für einen QR-Code. Nimm einen Kurzlink."
+
+msgid "square"
+msgstr "eckig"
+
+msgid "rounded"
+msgstr "abgerundet"
+
+msgid "circle"
+msgstr "rund"
+
+msgid "Short URL keyword"
+msgstr "Kürzel des Kurzlinks"
+
+msgid "Load"
+msgstr "Laden"
+
+msgid "or click \"QR\" in the link list."
+msgstr "oder in der Linkliste auf \"QR\" klicken."
+
+msgid "No short URL found with this keyword."
+msgstr "Kein Kurzlink mit diesem Kürzel gefunden."
+
+msgid "QR code content"
+msgstr "Inhalt des QR-Codes"
+
+msgid "Preset"
+msgstr "Vorlage"
+
+msgid "custom"
+msgstr "eigene"
+
+msgid "Save as default"
+msgstr "Als Standard merken"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Colours"
+msgstr "Farben"
+
+msgid "gradient to"
+msgstr "Verlauf zu"
+
+msgid "Second dot colour"
+msgstr "Zweite Punktfarbe"
+
+msgid "Corners"
+msgstr "Ecken"
+
+msgid "Second corner colour"
+msgstr "Zweite Eckfarbe"
+
+msgid "Background"
+msgstr "Hintergrund"
+
+msgid "transparent"
+msgstr "transparent"
+
+msgid "Shape"
+msgstr "Form"
+
+msgid "extra rounded"
+msgstr "stark abgerundet"
+
+msgid "circles"
+msgstr "Kreise"
+
+msgid "classy"
+msgstr "elegant"
+
+msgid "classy rounded"
+msgstr "elegant rund"
+
+msgid "Corner frame"
+msgstr "Eckrahmen"
+
+msgid "slightly rounded"
+msgstr "leicht abgerundet"
+
+msgid "Corner dot"
+msgstr "Eckpunkt"
+
+msgid "Dot gap"
+msgstr "Punktabstand"
+
+msgid "Logo (optional, never leaves your browser)"
+msgstr "Logo (optional, verlässt deinen Browser nie)"
+
+msgid "Choose logo"
+msgstr "Logo auswählen"
+
+msgid "Remove logo"
+msgstr "Logo entfernen"
+
+msgid "Logo size"
+msgstr "Logogröße"
+
+msgid "Free space around the logo"
+msgstr "Freiraum um das Logo"
+
+msgid "none"
+msgstr "keine"
+
+msgid "1 module"
+msgstr "1 Modul"
+
+msgid "2 modules"
+msgstr "2 Module"
+
+msgid "3 modules"
+msgstr "3 Module"
+
+msgid "Hide dots behind the logo"
+msgstr "Punkte hinter dem Logo ausblenden"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "Vertical"
+msgstr "Vertikal"
+
+msgid "Centre"
+msgstr "Mittig"
+
+msgid "You can also drag the logo in the preview. It only moves within the safe area."
+msgstr "Du kannst das Logo auch in der Vorschau ziehen. Es bewegt sich nur im sicheren Bereich."
+
+msgid "Print"
+msgstr "Druck"
+
+msgid "Printed width"
+msgstr "Druckbreite"
+
+msgid "Resolution"
+msgstr "Auflösung"
+
+msgid "Scan distance (optional)"
+msgstr "Scan-Abstand (optional)"
+
+msgid "Output"
+msgstr "Ausgabe"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Quiet zone"
+msgstr "Ruhezone"
+
+msgid "4 modules (standard)"
+msgstr "4 Module (Standard)"
+
+msgid "Error correction"
+msgstr "Fehlerkorrektur"
+
+msgid "L (7 %)"
+msgstr "L (7 %)"
+
+msgid "M (15 %)"
+msgstr "M (15 %)"
+
+msgid "Q (25 %)"
+msgstr "Q (25 %)"
+
+msgid "H (30 %, always used with a logo)"
+msgstr "H (30 %, mit Logo immer aktiv)"
+
+msgid "Download PNG"
+msgstr "PNG herunterladen"
+
+msgid "Download SVG (print)"
+msgstr "SVG herunterladen (Druck)"
+
+msgid "Download JPG"
+msgstr "JPG herunterladen"
+
+msgid "Copy PNG"
+msgstr "PNG kopieren"
+
+msgid "QR code preview"
+msgstr "Vorschau des QR-Codes"
+
+msgid "The QR code is rendered in your browser. Please enable JavaScript."
+msgstr "Der QR-Code entsteht in deinem Browser. Bitte aktiviere JavaScript."

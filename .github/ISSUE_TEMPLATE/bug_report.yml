@@ -1,0 +1,22 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: YOURLS, PHP and plugin version, browser
+      placeholder: YOURLS 1.10.6, PHP 8.3, plugin 1.0.0, Firefox 140
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
