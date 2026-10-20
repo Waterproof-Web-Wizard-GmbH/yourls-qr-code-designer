@@ -5,7 +5,7 @@
   "description": "Development tooling for the QR Code Designer YOURLS plugin. The plugin itself needs no build step.",
   "license": "MIT",
   "scripts": {
-    "test": "node --test tests/js/",
+    "test": "node --test tests/js/*.test.mjs",
     "check:vendor": "node scripts/check-vendor.mjs"
   },
   "devDependencies": {
